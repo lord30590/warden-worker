@@ -22,7 +22,7 @@ else
 fi
 
 git fetch upstream
-git merge --no-edit upstream/main
+git merge --no-edit --allow-unrelated-histories upstream/main
 
 echo "Upstream merged into local main."
 echo "If you configured origin, push with: git push origin main"
