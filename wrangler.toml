@@ -91,7 +91,7 @@ crons = ["0 3 * * *"]
 [[d1_databases]]
 binding = "vault1"
 database_name = "vault1"
-database_id = "ebd3cadb-5b63-4db5-8c83-c4a24e3a5233"
+database_id = "${D1_DATABASE_ID}"
 migrations_dir = "migrations"
 
 # R2 bucket for file attachments (optional, requires credit card)
